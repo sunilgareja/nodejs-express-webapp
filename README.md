@@ -11,16 +11,16 @@ I am using the Mapbox API and DarkSky API to make weather forecast requests, sim
 - https://www.mapbox.com/
 
 Once signed up, get the appropriate API keys/ URLS and insert them into the following files:
-- > src > utils > geocode.js (mapbox API)
-- > src > utils > weatherapi.js (darksky API)
+- src > utils > geocode.js (mapbox API)
+- src > utils > weatherapi.js (darksky API)
 
 I am using the Handlebars Js template to render content on the page, make sure you customize the content so it suits your requirements
-- > templates
+- templates
 
 To make life easier you could go a global search for the keyword: 'Insert' to see where I have mentioned the above changes to be made
 
 Finally to run the app redirect to the following directory:
-- > src
+- src
 and in the terminal type the following:
 - `node app.js`
 
