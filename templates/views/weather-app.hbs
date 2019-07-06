@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>{{title}}</title>
+
+        {{>scripts}}
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <p>Search for a location to get your current weather forecast. </p>
+            <form >
+                <input type="text" placeholder="Town/City/Postcode" id="searchLocation" >
+                <button id="weatherRQ" type="submit">Search</button>
+            </form>
+
+            <br>
+            <span id="loading"></span>
+            
+            <span id="location"></span>
+            <span id="forecast"></span>
+            <div id="darksky" style="margin-left:-20%">
+
+            </div>
+
+        </div>
+
+        {{>footer}}
+
+        <script type="module" src="/js/app.js"></script>
+    </body>
+
+</html>
