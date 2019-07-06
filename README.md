@@ -21,6 +21,7 @@ To make life easier you could go a global search for the keyword: 'Insert' to se
 
 Finally to run the app redirect to the following directory:
 - src
-and in the terminal type the following:
+
+Once in the Src directory in the terminal type the following:
 - `node app.js`
 
