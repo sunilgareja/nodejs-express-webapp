@@ -14,10 +14,11 @@ Once signed up, get the appropriate API keys/ URLS and insert them into the foll
 - src > utils > geocode.js (mapbox API)
 - src > utils > weatherapi.js (darksky API)
 
-I am using the Handlebars Js template to render content on the page, make sure you customize the content so it suits your requirements
-- templates
 
-To make life easier you could go a global search for the keyword: 'Insert' to see where I have mentioned the above changes to be made
+I am using the Handlebars Js template to render content on the page, make sure you customize the content so it suits your requirements
+
+To make life easier you could go a global search for the keyword: **'Insert'** to see where I have mentioned the above changes to be made
+
 
 Finally to run the app redirect to the following directory:
 - src
